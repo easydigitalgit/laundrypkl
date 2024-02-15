@@ -1,25 +1,23 @@
-/* 
-AppName : CRM
+/*
+AppName : laundry
 */
 
-# web App;
+#web app
     - auntentikasi (Username : Password)
     - Dashboard
-    - data agenda kegiatan
-        -- nomor agenda
-        -- nama agenda
-        -- waktu pelaksanaan, keterangan, lokasi (pin map), jenis agenda
-        -- notifikasi reminder
-    - data kontak
-        -- biodata kontak
-        -- taging (#tag ,#perwiritanAmin, #multipleTag)
-        -- jenis kontak (Whatsapp, IG, Tiktok, FB, sms)
-    - broadcast pesan (Whatsapp)
-        -- filter data kontak berdasarkan #tag
-        -- terjadwal
-        -- langsung
-    - data Whatsapp center
-    - laporan pelaksanaan agenda
-        -- deskripsi hasil pelaksanaan (terlaksana, dibatalkan, ditangguhkan)
-        -- dokumentasi (img, pdf)
+    - Data pelanggan
+        -- biodata (nama, alamat (pin map), Whatsapp)
+        -- tagging (#tag , #multipleTag)
+    - jenis layanan (cuci basah, cuci kering, setrika, cuci kering setrika, antar jemput)
+    - proses transaksi masuk
+        -- nomor transaksi
+        -- detail transaksi (jumlah pakaian, berat, lama pengerjaan, harga)
+        -- status (selesai, proses)
+    - proses transaksi keluar (pembelian alat laundry, bayar rekening)
+    - metode pembayaran (cash, paket prabayar bulanan, paket pascabayar bulanan)
+    - notifikasi
+    - laporan
+    
+       
+        
         
