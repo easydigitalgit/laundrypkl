@@ -1,0 +1,25 @@
+/* 
+AppName : CRM
+*/
+
+# web App;
+    - auntentikasi (Username : Password)
+    - Dashboard
+    - data agenda kegiatan
+        -- nomor agenda
+        -- nama agenda
+        -- waktu pelaksanaan, keterangan, lokasi (pin map), jenis agenda
+        -- notifikasi reminder
+    - data kontak
+        -- biodata kontak
+        -- taging (#tag ,#perwiritanAmin, #multipleTag)
+        -- jenis kontak (Whatsapp, IG, Tiktok, FB, sms)
+    - broadcast pesan (Whatsapp)
+        -- filter data kontak berdasarkan #tag
+        -- terjadwal
+        -- langsung
+    - data Whatsapp center
+    - laporan pelaksanaan agenda
+        -- deskripsi hasil pelaksanaan (terlaksana, dibatalkan, ditangguhkan)
+        -- dokumentasi (img, pdf)
+        
